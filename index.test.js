@@ -1,6 +1,6 @@
 const subject = require('./index')
 
-describe('SVG React Loader rewire', () => {
+describe('React SVG Loader rewire', () => {
 
     const mockDevelopmentConfig = {
         module: {
@@ -116,7 +116,7 @@ describe('SVG React Loader rewire', () => {
         })
 
         it('should set loader on the configuration', () => {
-            expect(svgLoader.loader).toContain('/svg-react-loader/')
+            expect(svgLoader.loader).toContain('/react-svg-loader/')
         })
 
         it('should insert the SVG loader before the file loader', () => {
@@ -135,7 +135,7 @@ describe('SVG React Loader rewire', () => {
         })
 
         it('should set loader on the configuration', () => {
-            expect(svgLoader.loader).toContain('/svg-react-loader/')
+            expect(svgLoader.loader).toContain('/react-svg-loader/')
         })
 
         it('should insert the SVG loader before the file loader', () => {
