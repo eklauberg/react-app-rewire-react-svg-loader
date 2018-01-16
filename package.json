@@ -1,7 +1,17 @@
 {
   "name": "react-app-rewire-react-svg-loader",
+  "descsription": "Add react-svg-loader to a react-app-rewired webpack config.",
   "version": "1.0.0",
   "main": "index.js",
+  "files": ["index.js"],
+  "license": "MIT",
+  "keywords": ["react-svg-loader", "create-react-app", "webpack", "react-app-rewired"],
+  "bugs": {
+    "url":
+      "https://github.com/tiepp/react-app-rewire-react-svg-loader/issues"
+  },
+  "homepage":
+    "https://github.com/tiepp/react-app-rewire-react-svg-loader#readme",
   "scripts": {
     "test": "jest"
   },
